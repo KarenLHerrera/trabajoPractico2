@@ -1,0 +1,14 @@
+.titulo {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;  /* Negrita */
+}
+.intro{
+    color: orange;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+.lista{
+    color: white;
+    font-weight: bold;
+}

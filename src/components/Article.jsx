@@ -4,16 +4,15 @@ import "../css/Article.css";
 
 const Article = ({ Lenguajes }) => {
   return (
-    <div>
-      <h2>Lenguajes</h2>
-      <ul>
-        {Lenguajes.map((item) => (
-          <li key={item.id}>
-            <Card nombre={item.nombre} img={item.imagen} />
-          </li>
-        ))}
-      </ul>
+    <div className="container px-4 px-lg-5 mt-5 cards-container">
+      <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 justify-content-center">
+        {Lenguajes.map((lenguaje,index)=> 
+            <Card key={index} item={lenguaje}/>
+        )}
+      </div>
     </div>
+
+
   );
 };
 

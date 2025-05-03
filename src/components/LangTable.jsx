@@ -1,5 +1,4 @@
 import React from "react";
-import Table from "react-bootstrap/Table";
 import "../css/LangTable.css";
 
 const LangTable = ({ Lenguajes }) => {

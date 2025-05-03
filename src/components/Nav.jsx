@@ -6,8 +6,8 @@ const NavBar = () => {
     <div>
       <nav>
         <a href="">Home</a>
-        <a href="www.instagram.com/maaic12">Nosotros</a>
-        <a href="">Facultad Regional Tucuman - UTN</a>
+        <a href="nosotros.html" target="_blank">Nosotros</a>
+        <a href="https://www.frt.utn.edu.ar/" target="_blank">Facultad Regional Tucuman - UTN</a>
       </nav>
     </div>
   );
