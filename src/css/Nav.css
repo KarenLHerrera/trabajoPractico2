@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    background-color: aquamarine;
+    padding: 2px;  
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
